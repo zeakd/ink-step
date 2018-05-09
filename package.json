@@ -1,6 +1,6 @@
 {
   "name": "ink-step",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "step component for ink inspired by react-router",
   "main": "dist/index.js",
   "scripts": {
