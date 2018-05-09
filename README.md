@@ -77,7 +77,11 @@ const history = createStepHistory('init')
 
 ### Step
 ```js
-<Step task='welcome' component={WelcomeStep} />
+<Step task='welcome' render={() => <WelcomeStep />} />
+// or
+<Step task='welcome'>
+  <WelcomeStep />
+</Step>
 ```
 
 ### To
