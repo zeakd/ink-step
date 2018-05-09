@@ -1,0 +1,35 @@
+{
+  "name": "ink-step",
+  "version": "0.0.0",
+  "description": "step component for ink inspired by react-router",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --ignore __tests__",
+    "prepublish": "cross-env NODE_ENV=production npm run build",
+    "dev": "babel -w src --out-dir dist --ignore __tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeakd/ink-step.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeakd/ink-step/issues"
+  },
+  "homepage": "https://github.com/zeakd/ink-step#readme",
+  "files": [
+		"lib"
+	],
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.46",
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.46",
+    "@babel/plugin-transform-react-jsx": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "cross-env": "^5.1.4",
+    "ink": "^0.5.0"
+  },
+  "dependencies": {}
+}
